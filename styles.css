@@ -1,0 +1,207 @@
+
+html {
+    background-color: whitesmoke;
+}
+
+h1 {
+    text-align: center;
+    font-family: "playfair display", serif;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 40px;
+}
+
+
+.color-container,.font-container,.text-style-container {
+    border: 1px dotted black;
+    margin: 10px auto;
+    background-color: white;
+}
+
+h2 {
+    text-align: center;
+    font-family: "playfair display", serif;
+    text-decoration: underline;
+    font-size: 30px;
+    text-transform: uppercase;
+    background-color: whitesmoke;
+    padding-bottom: 5%;
+    margin: auto 10%;
+}
+
+h3 {
+    text-align: center;
+}
+
+#color-container {
+    padding-bottom: 10%;
+    margin:auto;
+    width: 100%;
+    text-align: center;
+}
+
+#color-container p {
+    font-size: 20px;
+}
+
+.darkbluebox, .emeraldbox, .lavenderbox, .purplebox {
+    display:inline-block;
+    font-family: "noto sans", sans-serif;
+}
+
+.darkbluebox {
+    border: 1px solid black;
+    background-color: #292E69;
+    color: white;
+    text-align: center;
+    width: 150px;
+    height: 100px;
+    line-height: 20px;
+    padding: 70px 0;
+}
+
+.lavenderbox {
+    border: 1px solid black;
+    background-color: #D9BEF9;
+    color: black;
+    text-align: center;
+    width: 150px;
+    height: 100px;
+    line-height: 20px;
+    padding: 70px 0;
+}
+
+.purplebox {
+    border: 1px solid black;
+    background-color: #7240DC;
+    color: white;
+    text-align: center;
+    width: 150px;
+    height: 100px;
+    line-height: 20px;
+    padding: 70px 0;
+}
+
+.emeraldbox {
+    border: 1px solid black;
+    background-color: #2E6355;
+    color: white;
+    text-align: center;
+    width: 150px;
+    height: 100px;
+    line-height: 20px;
+    padding: 70px 0;
+}
+
+#font-container {
+    text-align: center;
+}
+
+p {
+    font-size: 14px;
+}
+
+p.bold {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+p.italic {
+    font-style: italic;
+}
+
+p.light {
+    font-weight: lighter;
+}
+
+#noto-sans {
+    font-family: "noto sans", sans-serif;
+    display: inline-block;
+    margin: 10px 10px;
+    background-color: aliceblue;
+    padding: 20px;
+    height: 195px;
+    min-width:fit-content;
+    max-width: 230px;
+    position: relative;
+}
+
+#noto-sans h3.noto-sans {
+    text-transform: uppercase;
+}
+
+#roboto {
+    font-family: "roboto", sans-serif;
+    display: inline-block;
+    margin: 10px 10px;
+    background-color: aliceblue;
+    padding: 20px;
+    height: 195px;
+    min-width:fit-content;
+    max-width: 230px;
+    position: relative;
+}
+
+#roboto h3.roboto {
+    text-transform: uppercase;
+}
+
+#playfair-display {
+    font-family: 'playfair display', serif;
+    display: inline-block;
+    margin: 10px 10px;
+    background-color: aliceblue;
+    padding: 20px;
+    height: 195px;
+    min-width:fit-content;
+    max-width: 230px;
+}
+
+#playfair-display h3.playfair-display {
+    text-transform: uppercase;
+}
+
+.heading1, .heading2, .subheading, .paragraph {
+    display: inline-block;
+    text-align: left;
+    padding-right: 15px;
+    margin: 5px;
+    background-color: aliceblue;
+    width: 20%;
+    height: 250px;
+}
+
+#text-style-container {
+    text-align: center;
+}
+
+#text-style-container .heading1 h3 {
+    font-family: "playfair display", serif;
+    font-size: 40px;
+    text-decoration: underline;
+    font-weight: 700;
+    line-height: 100%;
+}
+
+#text-style-container .heading2 h3 {
+    font-family: "playfair display", serif;
+    font-size: 30px;
+    text-decoration: underline;
+    line-height: 100%;
+}
+
+#text-style-container .subheading h3 {
+    font-family: "noto sans", sans-serif;
+    font-size: 16px;
+}
+
+#text-style-container .paragraph h3 {
+    font-family: "roboto", sans-serif;
+    font-size: 12px;
+}
+
+.heading1, .heading2, .subheading, .paragraph ul {
+    font-family: "roboto", sans-serif;
+    font-size: 14px;
+    line-height: 120%;
+}
